@@ -1,0 +1,38 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+h1, h2, h3, h4{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: blue;
+}
+
+div{
+    background-color: red;
+}
+
+body{
+background-image: url(https://picsum.photos/700);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.Element{
+background: linear-gradient(#f5c900,#183182);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Element:hover{
+    background: linear-gradient(#f3f520,#59d102);
+}
